@@ -129,7 +129,7 @@ export default function Home() {
               </a>
           </div>
           <p className="text-[var(--white)] align-center">or create a new account.</p>
-            <input type="text" name="username" placeholder="User Name" className="text-[var(--white-icon)] border-2 border-[var(--foreground)]"/>
+            <input type="text" name="username" placeholder="User Name" className="text-whiteIcon border-2 border-foreground dark:border-foreground"/>
             <input type="email" name="email" placeholder="Email" className="text-[var(--white-icon)] border-2 border-[var(--foreground)]"/>
             <input type="password" name="password" placeholder="Password"className="text-[var(--white-icon)] border-2 border-[var(--foreground)]"/>
             <input type="password" name="confirm-password" placeholder="Re-enter Password" className="text-[var(--white-icon)] border-2 border-[var(--foreground)]"/>
