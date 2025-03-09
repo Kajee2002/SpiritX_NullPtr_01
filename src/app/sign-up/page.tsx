@@ -9,7 +9,7 @@ export default function signup(){
         <div className="flex flex-row h-screen width-screen min-w-screen">
             <div className="flex flex-col justify-center items-center signup-text w-1/2 py-16 px-4">
                 <p className="pb-2 ">or Create a new account </p>
-                <form className="w-full  px-4 ">
+                <form className="w-3/4  px-4 ">
                     <Input id="email" type="Email" placeholder="Email"/>
                     <Input id="username" type="text" placeholder="UserName"/>
                     <Input id="password" type="password" placeholder="Password"/>

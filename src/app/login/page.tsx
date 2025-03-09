@@ -14,7 +14,7 @@ export default function signup(){
             </div>
             <div className="flex flex-col justify-center items-center signup-text w-1/2 py-16 px-4">
                 <p className="pb-2 ">Login to your Account </p>
-                <form className="w-full  px-4 ">
+                <form className="w-3/4  px-4 ">
                     <Input id="username" type="text" placeholder="UserName" required />
                     <Input id="password" type="password" placeholder="Password" required />
                     <Input id="confirmPassword" type="password" placeholder="Confirm Password" required />
