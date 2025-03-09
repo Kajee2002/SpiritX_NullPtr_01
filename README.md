@@ -26,6 +26,8 @@ bun dev
 ## Project Structure
 
 
+```
+.
 ├── public          # Static assets
 ├── src
 │   ├── app         # Application components and pages
@@ -35,14 +37,14 @@ bun dev
 │   │   └── layout.tsx
 │   ├── styles      # Global styles and CSS files
 │   ├── components  # Reusable components
-│   ├── lib         # library files
+│   ├── lib         # Library files
 │   ├── utils       # Utility functions
 │   └── ...         # Other directories
 ├── .gitignore      # Git ignore file
 ├── package.json    # NPM package configuration
-├── [README.md]()       # Project documentation
+├── README.md       # Project documentation
 └── ...             # Other files
-
+```
 
 ## Features
 - User authentication (Login, Signup, Logout)
