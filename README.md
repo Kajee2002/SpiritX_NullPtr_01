@@ -25,7 +25,7 @@ bun dev
 ```
 ## Project Structure
 
-.
+
 ├── public          # Static assets
 ├── src
 │   ├── app         # Application components and pages
@@ -53,8 +53,6 @@ bun dev
 
 - Password reset functionality
 
-- Social login support (Google, Facebook, etc.)
-
 - Form validation with real-time feedback
 
 ## Technologies Used
@@ -80,7 +78,7 @@ npm install
 ```
 3. Set Up Environment Variables
 
-Create a .env.local file in the root directory and add your Firebase credentials:
+Create a .env.local file in the root directory and add your Superbase credentials:
 ``` bash 
 NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
