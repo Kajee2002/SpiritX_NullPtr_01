@@ -3,6 +3,7 @@ import {Input} from "@/components/ui/input"
 import {Button} from "@/components/ui/button"
 import { Loader2,ChevronRight } from "lucide-react"
 import Link from "next/link"
+import PasswordToggle from "../sign-up/hide_seek";
 export default function signup(){
     return(
         <>
@@ -15,10 +16,12 @@ export default function signup(){
             <div className="flex flex-col justify-center items-center signup-text h-2/4 mt-2 md:mt-0 md:h-screen w-full md:w-1/2 py-8 md:py-16 px-4 bg-gradient-to-r from-pink-100 to-gray-50 ">
             <p className="pb-2 text-xl md:text-xl">Login to your Account</p>
             <form className="w-full md:w-3/4 px-4">
-                <Input id="username" type="text" placeholder="UserName" required className="mb-4" />
-                <Input id="password" type="password" placeholder="Password" required className="mb-4" />
-                <Input id="confirmPassword" type="password" placeholder="Confirm Password" required className="mb-4" />
-                <Button type="submit" variant={"outline"} className="w-full">Login <ChevronRight /></Button>
+                <Input id="username" type="text" placeholder="UserName" required className="mb-4 md:py-8" />
+                <div className="relative">
+                <Input id="password" type="password" placeholder="Password" required className="mb-4 md:py-8" />
+                <PasswordToggle id="password" />
+                </div>
+                <Button type="submit" variant={"outline"} className="w-full md:py-6">Login <ChevronRight /></Button>
             </form>
             </div>
         </div>
